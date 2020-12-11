@@ -14,7 +14,7 @@ def main():
     key = "Ra5Z9tL1xZwAAAAAAAAAAS_CbgFo1tE7h4iru8eknnp2HqpgdvdY_jsa_egb-b-A"
     filetobetransfered = cloudstore(key)
     initial=input("type out the present path of the file to be transfered ")
-    final=input("ty")
+    final=input("type the path to be uploaded on dropbox")
     filetobetransfered.upload(initial,final)
     print("done")
 
